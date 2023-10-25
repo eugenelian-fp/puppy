@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/eugenelian-fp/dog"
 )
 
@@ -18,4 +20,8 @@ func BigBark() string {
 
 func BigBarks() string {
 	return dog.WhenGrownUp(Barks())
+}
+
+func v2() string {
+	fmt.Println("v1.2.0")
 }
