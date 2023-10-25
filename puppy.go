@@ -23,5 +23,5 @@ func BigBarks() string {
 }
 
 func v2() string {
-	fmt.Println("v1.2.0")
+	return fmt.Println("v1.2.0")
 }
