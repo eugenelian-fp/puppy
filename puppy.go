@@ -22,6 +22,6 @@ func BigBarks() string {
 	return dog.WhenGrownUp(Barks())
 }
 
-func v2() string {
-	return fmt.Println("v1.2.0")
+func v2() {
+	fmt.Println("v1.2.0")
 }
